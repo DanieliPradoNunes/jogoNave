@@ -1,0 +1,292 @@
+[
+    {
+        "label": "Entity",
+        "importPath": "Entity",
+        "description": "Entity",
+        "isExtraImport": true,
+        "detail": "Entity",
+        "documentation": {}
+    },
+    {
+        "label": "Entity",
+        "importPath": "Entity",
+        "description": "Entity",
+        "isExtraImport": true,
+        "detail": "Entity",
+        "documentation": {}
+    },
+    {
+        "label": "Entity",
+        "importPath": "Entity",
+        "description": "Entity",
+        "isExtraImport": true,
+        "detail": "Entity",
+        "documentation": {}
+    },
+    {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "Surface",
+        "importPath": "pygame",
+        "description": "pygame",
+        "isExtraImport": true,
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "Rect",
+        "importPath": "pygame",
+        "description": "pygame",
+        "isExtraImport": true,
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "Menu",
+        "importPath": "code.menu",
+        "description": "code.menu",
+        "isExtraImport": true,
+        "detail": "code.menu",
+        "documentation": {}
+    },
+    {
+        "label": "WIN_WIDTH",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "WIN_HEIGHT",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "C_YELLOW",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "MENU_OPTION",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "WIN_WIDTH",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "C_ORANGE",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "C_BLACK",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "C_WHITE",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "pygame.image",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame.image",
+        "description": "pygame.image",
+        "detail": "pygame.image",
+        "documentation": {}
+    },
+    {
+        "label": "Font",
+        "importPath": "pygame.font",
+        "description": "pygame.font",
+        "isExtraImport": true,
+        "detail": "pygame.font",
+        "documentation": {}
+    },
+    {
+        "label": "Game",
+        "importPath": "code.game",
+        "description": "code.game",
+        "isExtraImport": true,
+        "detail": "code.game",
+        "documentation": {}
+    },
+    {
+        "label": "Background",
+        "kind": 6,
+        "importPath": "code.background",
+        "description": "code.background",
+        "peekOfCode": "class Background(Entity):\n    def __init__(self):\n        pass\n    def move(self, ):\n        pass",
+        "detail": "code.background",
+        "documentation": {}
+    },
+    {
+        "label": "C_ORANGE",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "C_ORANGE = (255, 165, 0)\nC_BLACK = (0, 0, 0)\nC_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#M\nMENU_OPTION = (\n    'NEW GAME 1P',\n    'NEW GAME 2P COPERATIVE',\n    'NEW GAME 2P COMPETITIVE',\n    'SCORES',",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "C_BLACK",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "C_BLACK = (0, 0, 0)\nC_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#M\nMENU_OPTION = (\n    'NEW GAME 1P',\n    'NEW GAME 2P COPERATIVE',\n    'NEW GAME 2P COMPETITIVE',\n    'SCORES',\n    'EXIT'",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "C_WHITE",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "C_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#M\nMENU_OPTION = (\n    'NEW GAME 1P',\n    'NEW GAME 2P COPERATIVE',\n    'NEW GAME 2P COMPETITIVE',\n    'SCORES',\n    'EXIT'\n)",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "C_YELLOW",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "C_YELLOW = (255, 255, 0)\n#M\nMENU_OPTION = (\n    'NEW GAME 1P',\n    'NEW GAME 2P COPERATIVE',\n    'NEW GAME 2P COMPETITIVE',\n    'SCORES',\n    'EXIT'\n)\n#w",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "MENU_OPTION",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "MENU_OPTION = (\n    'NEW GAME 1P',\n    'NEW GAME 2P COPERATIVE',\n    'NEW GAME 2P COMPETITIVE',\n    'SCORES',\n    'EXIT'\n)\n#w\nWIN_WIDTH = 576\nWIN_HEIGHT = 324",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "WIN_WIDTH",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "WIN_WIDTH = 576\nWIN_HEIGHT = 324",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "WIN_HEIGHT",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "WIN_HEIGHT = 324",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "Enemy",
+        "kind": 6,
+        "importPath": "code.enemy",
+        "description": "code.enemy",
+        "peekOfCode": "class Enemy(Entity):\n    def __init__(self):\n        pass\n    def move(self, ):\n        pass",
+        "detail": "code.enemy",
+        "documentation": {}
+    },
+    {
+        "label": "Entity",
+        "kind": 6,
+        "importPath": "code.entity",
+        "description": "code.entity",
+        "peekOfCode": "class Entity:\n    def __init__(self):\n        self.name = None\n        self.surf = None\n        self.rect = None\n    def move(self, ):\n        pass",
+        "detail": "code.entity",
+        "documentation": {}
+    },
+    {
+        "label": "EntityFactory",
+        "kind": 6,
+        "importPath": "code.entityFactory",
+        "description": "code.entityFactory",
+        "peekOfCode": "class EntityFactory:\n    def __init__(self):\n        pass\n    def get_entity(self, entity_type):\n        pass",
+        "detail": "code.entityFactory",
+        "documentation": {}
+    },
+    {
+        "label": "Game",
+        "kind": 6,
+        "importPath": "code.game",
+        "description": "code.game",
+        "peekOfCode": "class Game:\n    def __init__(self):\n        pygame.init()\n        self.window = pygame.display.set_mode(size=(WIN_WIDTH, WIN_HEIGHT))\n    def run(self):\n        while True:\n            menu = Menu(self.window)\n            menu.run()",
+        "detail": "code.game",
+        "documentation": {}
+    },
+    {
+        "label": "Level",
+        "kind": 6,
+        "importPath": "code.level",
+        "description": "code.level",
+        "peekOfCode": "class Level:\n    def __init__(self):\n        self.window = None\n        self.name = None\n        self.entity_list = None\n        self.entity_list = None\n    def run(self, ):\n        pass",
+        "detail": "code.level",
+        "documentation": {}
+    },
+    {
+        "label": "Menu",
+        "kind": 6,
+        "importPath": "code.menu",
+        "description": "code.menu",
+        "peekOfCode": "class Menu:\n    def __init__(self, window):\n        self.window = window\n        self.surf = pygame.image.load('./assets/MenuBg.png')\n        self.react = self.surf.get_rect()\n    def run(self):\n        menu_option = 0\n        pygame.mixer.music.load('./assets/Menu.mp3')\n        pygame.mixer.music.play(-1)\n        while True:",
+        "detail": "code.menu",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "kind": 6,
+        "importPath": "code.player",
+        "description": "code.player",
+        "peekOfCode": "class Player(Entity):\n    def __init__(self):\n        pass\n    def update(self, ):\n        pass\n    def move(self, ):\n        pass",
+        "detail": "code.player",
+        "documentation": {}
+    },
+    {
+        "label": "game",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "game = Game()\ngame.run()",
+        "detail": "main",
+        "documentation": {}
+    }
+]
