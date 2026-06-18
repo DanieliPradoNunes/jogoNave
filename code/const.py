@@ -8,6 +8,32 @@ C_YELLOW = (255, 255, 0)
 #E
 EVENT_ENEMY = pygame.USEREVENT + 1
 
+ENTITY_HEALTH = {
+    'Level1Bg0': 9999,
+    'Level1Bg1': 9999,
+    'Level1Bg2': 9999,
+    'Level1Bg3': 9999,
+    'Level1Bg4': 9999,
+    'Level1Bg5': 9999,
+    'Level1Bg6': 9999,
+    'Player1': 300,
+    'Player1Shoot': 1,
+    'Player2': 300,
+    'Player2Shoot': 1,
+    'Enemy1': 60,
+    'Enemy1Shoot': 1,
+    'Enemy2': 40,
+    'Enemy2Shoot': 1
+
+}
+
+ENTITY_SHOT_DELAY = {
+    'Player1': 25,
+    'Player2': 20,
+    'Enemy1': 100,
+    'Enemy2': 120
+}
+
 ENTITY_SPEED = {
     'Level1Bg0': 0,
     'Level1Bg1': 1,
@@ -17,9 +43,13 @@ ENTITY_SPEED = {
     'Level1Bg5': 5,
     'Level1Bg6': 6,
     'Player1': 3,
+    'Player1Shoot': 1,
     'Player2': 3,
+    'Player2Shoot': 3,
     'Enemy1': 2,
-    'Enemy2': 1
+    'Enemy1Shoot': 3,
+    'Enemy2': 1,
+    'Enemy2Shoot': 2
 }
 
 

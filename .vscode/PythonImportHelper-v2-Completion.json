@@ -16,6 +16,14 @@
         "documentation": {}
     },
     {
+        "label": "ENTITY_SHOT_DELAY",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
         "label": "ENTITY_SPEED",
         "importPath": "code.const",
         "description": "code.const",
@@ -24,7 +32,15 @@
         "documentation": {}
     },
     {
-        "label": "WIN_WIDTH",
+        "label": "ENTITY_SPEED",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "ENTITY_HEALTH",
         "importPath": "code.const",
         "description": "code.const",
         "isExtraImport": true,
@@ -41,6 +57,14 @@
     },
     {
         "label": "WIN_HEIGHT",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "WIN_WIDTH",
         "importPath": "code.const",
         "description": "code.const",
         "isExtraImport": true,
@@ -160,6 +184,22 @@
         "documentation": {}
     },
     {
+        "label": "ENTITY_SHOT_DELAY",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "PLAYER_KEY_SHOOT",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
         "label": "WIN_HEIGHT",
         "importPath": "code.const",
         "description": "code.const",
@@ -213,6 +253,30 @@
         "description": "code.const",
         "isExtraImport": true,
         "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "ENTITY_SPEED",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "Entity",
+        "importPath": "code.entity",
+        "description": "code.entity",
+        "isExtraImport": true,
+        "detail": "code.entity",
+        "documentation": {}
+    },
+    {
+        "label": "Entity",
+        "importPath": "code.entity",
+        "description": "code.entity",
+        "isExtraImport": true,
+        "detail": "code.entity",
         "documentation": {}
     },
     {
@@ -297,6 +361,22 @@
         "documentation": {}
     },
     {
+        "label": "EnemyShoot",
+        "importPath": "code.enemyShoot",
+        "description": "code.enemyShoot",
+        "isExtraImport": true,
+        "detail": "code.enemyShoot",
+        "documentation": {}
+    },
+    {
+        "label": "EnemyShoot",
+        "importPath": "code.enemyShoot",
+        "description": "code.enemyShoot",
+        "isExtraImport": true,
+        "detail": "code.enemyShoot",
+        "documentation": {}
+    },
+    {
         "label": "ABC",
         "importPath": "abc",
         "description": "abc",
@@ -338,6 +418,30 @@
         "documentation": {}
     },
     {
+        "label": "Player",
+        "importPath": "code.player",
+        "description": "code.player",
+        "isExtraImport": true,
+        "detail": "code.player",
+        "documentation": {}
+    },
+    {
+        "label": "Enemy",
+        "importPath": "code.enemy",
+        "description": "code.enemy",
+        "isExtraImport": true,
+        "detail": "code.enemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enemy",
+        "importPath": "code.enemy",
+        "description": "code.enemy",
+        "isExtraImport": true,
+        "detail": "code.enemy",
+        "documentation": {}
+    },
+    {
         "label": "Enemy",
         "importPath": "code.enemy",
         "description": "code.enemy",
@@ -352,6 +456,30 @@
         "importPath": "random",
         "description": "random",
         "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "entity",
+        "importPath": "code",
+        "description": "code",
+        "isExtraImport": true,
+        "detail": "code",
+        "documentation": {}
+    },
+    {
+        "label": "PlayerShoot",
+        "importPath": "code.playerShoot",
+        "description": "code.playerShoot",
+        "isExtraImport": true,
+        "detail": "code.playerShoot",
+        "documentation": {}
+    },
+    {
+        "label": "PlayerShoot",
+        "importPath": "code.playerShoot",
+        "description": "code.playerShoot",
+        "isExtraImport": true,
+        "detail": "code.playerShoot",
         "documentation": {}
     },
     {
@@ -376,6 +504,14 @@
         "description": "code.entityFactory",
         "isExtraImport": true,
         "detail": "code.entityFactory",
+        "documentation": {}
+    },
+    {
+        "label": "EntityMediator",
+        "importPath": "code.entityMediator",
+        "description": "code.entityMediator",
+        "isExtraImport": true,
+        "detail": "code.entityMediator",
         "documentation": {}
     },
     {
@@ -408,7 +544,7 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "C_ORANGE = (255, 165, 0)\nC_BLACK = (0, 0, 0)\nC_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_SPEED = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 1,\n    'Level1Bg2': 2,",
+        "peekOfCode": "C_ORANGE = (255, 165, 0)\nC_BLACK = (0, 0, 0)\nC_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_HEALTH = {\n    'Level1Bg0': 9999,\n    'Level1Bg1': 9999,\n    'Level1Bg2': 9999,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -417,7 +553,7 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "C_BLACK = (0, 0, 0)\nC_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_SPEED = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 1,\n    'Level1Bg2': 2,\n    'Level1Bg3': 3,",
+        "peekOfCode": "C_BLACK = (0, 0, 0)\nC_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_HEALTH = {\n    'Level1Bg0': 9999,\n    'Level1Bg1': 9999,\n    'Level1Bg2': 9999,\n    'Level1Bg3': 9999,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -426,7 +562,7 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "C_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_SPEED = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 1,\n    'Level1Bg2': 2,\n    'Level1Bg3': 3,\n    'Level1Bg4': 4,",
+        "peekOfCode": "C_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_HEALTH = {\n    'Level1Bg0': 9999,\n    'Level1Bg1': 9999,\n    'Level1Bg2': 9999,\n    'Level1Bg3': 9999,\n    'Level1Bg4': 9999,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -435,7 +571,7 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "C_YELLOW = (255, 255, 0)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_SPEED = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 1,\n    'Level1Bg2': 2,\n    'Level1Bg3': 3,\n    'Level1Bg4': 4,\n    'Level1Bg5': 5,",
+        "peekOfCode": "C_YELLOW = (255, 255, 0)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_HEALTH = {\n    'Level1Bg0': 9999,\n    'Level1Bg1': 9999,\n    'Level1Bg2': 9999,\n    'Level1Bg3': 9999,\n    'Level1Bg4': 9999,\n    'Level1Bg5': 9999,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -444,7 +580,25 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "EVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_SPEED = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 1,\n    'Level1Bg2': 2,\n    'Level1Bg3': 3,\n    'Level1Bg4': 4,\n    'Level1Bg5': 5,\n    'Level1Bg6': 6,\n    'Player1': 3,",
+        "peekOfCode": "EVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_HEALTH = {\n    'Level1Bg0': 9999,\n    'Level1Bg1': 9999,\n    'Level1Bg2': 9999,\n    'Level1Bg3': 9999,\n    'Level1Bg4': 9999,\n    'Level1Bg5': 9999,\n    'Level1Bg6': 9999,\n    'Player1': 300,",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "ENTITY_HEALTH",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "ENTITY_HEALTH = {\n    'Level1Bg0': 9999,\n    'Level1Bg1': 9999,\n    'Level1Bg2': 9999,\n    'Level1Bg3': 9999,\n    'Level1Bg4': 9999,\n    'Level1Bg5': 9999,\n    'Level1Bg6': 9999,\n    'Player1': 300,\n    'Player1Shoot': 1,",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "ENTITY_SHOT_DELAY",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "ENTITY_SHOT_DELAY = {\n    'Player1': 25,\n    'Player2': 20,\n    'Enemy1': 100,\n    'Enemy2': 120\n}\nENTITY_SPEED = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 1,\n    'Level1Bg2': 2,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -453,7 +607,7 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "ENTITY_SPEED = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 1,\n    'Level1Bg2': 2,\n    'Level1Bg3': 3,\n    'Level1Bg4': 4,\n    'Level1Bg5': 5,\n    'Level1Bg6': 6,\n    'Player1': 3,\n    'Player2': 3,",
+        "peekOfCode": "ENTITY_SPEED = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 1,\n    'Level1Bg2': 2,\n    'Level1Bg3': 3,\n    'Level1Bg4': 4,\n    'Level1Bg5': 5,\n    'Level1Bg6': 6,\n    'Player1': 3,\n    'Player1Shoot': 1,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -543,8 +697,17 @@
         "kind": 6,
         "importPath": "code.enemy",
         "description": "code.enemy",
-        "peekOfCode": "class Enemy(Entity):\n    def __init__(self, name: str, position: tuple):\n        super().__init__(name, position)\n    def move(self, ):\n        self.rect.centerx -= ENTITY_SPEED[self.name]\n        if self.rect.right <= 0:\n            self.rect.left = WIN_WIDTH",
+        "peekOfCode": "class Enemy(Entity):\n    def __init__(self, name: str, position: tuple):\n        super().__init__(name, position)\n        self.shoot_delay = ENTITY_SHOT_DELAY[self.name]\n    def move(self):\n        self.rect.centerx -= ENTITY_SPEED[self.name]\n    def shoot(self):\n        self.shoot_delay -= 1\n        if self.shoot_delay == 0:\n            self.shoot_delay = ENTITY_SHOT_DELAY[self.name]",
         "detail": "code.enemy",
+        "documentation": {}
+    },
+    {
+        "label": "EnemyShoot",
+        "kind": 6,
+        "importPath": "code.enemyShoot",
+        "description": "code.enemyShoot",
+        "peekOfCode": "class EnemyShoot(Entity):\n    def __init__(self, name: str, position: tuple):\n        super().__init__(name, position)\n    def move(self, ):\n        self.rect.centerx -= ENTITY_SPEED[self.name]",
+        "detail": "code.enemyShoot",
         "documentation": {}
     },
     {
@@ -552,7 +715,7 @@
         "kind": 6,
         "importPath": "code.entity",
         "description": "code.entity",
-        "peekOfCode": "class Entity (ABC):\n    def __init__(self, name: str, position: tuple):\n        self.name = name\n        self.surf = pygame.image.load('./assets/' + name + '.png').convert_alpha()\n        self.rect = self.surf.get_rect(left=position[0], top=position[1])\n        self.speed = 0\n    @abstractmethod\n    def move(self):\n        pass",
+        "peekOfCode": "class Entity (ABC):\n    def __init__(self, name: str, position: tuple):\n        self.name = name\n        self.surf = pygame.image.load('./assets/' + name + '.png').convert_alpha()\n        self.rect = self.surf.get_rect(left=position[0], top=position[1])\n        self.speed = 0\n        self.health = ENTITY_HEALTH[self.name]\n    @abstractmethod\n    def move(self):\n        pass",
         "detail": "code.entity",
         "documentation": {}
     },
@@ -563,6 +726,15 @@
         "description": "code.entityFactory",
         "peekOfCode": "class EntityFactory:\n    @staticmethod\n    def get_entity(entity_name: str):\n        match entity_name:\n            case 'Level1Bg':\n                list_bg = []\n                for i in range(7):\n                    list_bg.append(Background(f'Level1Bg{i}', (0,0)))\n                    list_bg.append(Background(f'Level1Bg{i}', (WIN_WIDTH, 0)))\n                return list_bg",
         "detail": "code.entityFactory",
+        "documentation": {}
+    },
+    {
+        "label": "EntityMediator",
+        "kind": 6,
+        "importPath": "code.entityMediator",
+        "description": "code.entityMediator",
+        "peekOfCode": "class EntityMediator:\n    @staticmethod\n    def __verify_collision_window(ent = entity):\n        if isinstance(ent, Enemy):\n            if ent.rect.left < 0:\n                ent.health = 0\n        if isinstance(ent, PlayerShoot):\n            if ent.rect.right > WIN_WIDTH:\n                ent.health = 0\n        if isinstance(ent, EnemyShoot):",
+        "detail": "code.entityMediator",
         "documentation": {}
     },
     {
@@ -597,8 +769,17 @@
         "kind": 6,
         "importPath": "code.player",
         "description": "code.player",
-        "peekOfCode": "class Player(Entity):\n    def __init__(self, name: str, position: tuple):\n        super().__init__(name, position)\n    def move(self, ):\n        pressed_keys = pygame.key.get_pressed()\n        if pressed_keys[PLAYER_KEY_UP[self.name]] and self.rect.top > 0:\n            self.rect.centery -= ENTITY_SPEED[self.name]\n        if pressed_keys[PLAYER_KEY_DOWN[self.name]] and self.rect.bottom < WIN_HEIGHT:\n            self.rect.centery += ENTITY_SPEED[self.name]\n        if pressed_keys[PLAYER_KEY_LEFT[self.name]] and self.rect.left > 0:",
+        "peekOfCode": "class Player(Entity):\n    def __init__(self, name: str, position: tuple):\n        super().__init__(name, position)\n        self.shoot_delay = ENTITY_SHOT_DELAY[self.name]\n    def move(self, ):\n        pressed_keys = pygame.key.get_pressed()\n        if pressed_keys[PLAYER_KEY_UP[self.name]] and self.rect.top > 0:\n            self.rect.centery -= ENTITY_SPEED[self.name]\n        if pressed_keys[PLAYER_KEY_DOWN[self.name]] and self.rect.bottom < WIN_HEIGHT:\n            self.rect.centery += ENTITY_SPEED[self.name]",
         "detail": "code.player",
+        "documentation": {}
+    },
+    {
+        "label": "PlayerShoot",
+        "kind": 6,
+        "importPath": "code.playerShoot",
+        "description": "code.playerShoot",
+        "peekOfCode": "class PlayerShoot(Entity):\n    def __init__(self, name: str, position: tuple):\n        super().__init__(name, position)\n    def move(self, ):\n        self.rect.centerx += ENTITY_SPEED[self.name]",
+        "detail": "code.playerShoot",
         "documentation": {}
     },
     {
