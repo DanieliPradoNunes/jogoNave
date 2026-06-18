@@ -16,7 +16,7 @@
         "documentation": {}
     },
     {
-        "label": "WIN_HEIGHT",
+        "label": "WIN_WIDTH",
         "importPath": "code.const",
         "description": "code.const",
         "isExtraImport": true,
@@ -24,7 +24,7 @@
         "documentation": {}
     },
     {
-        "label": "WIN_WIDTH",
+        "label": "WIN_HEIGHT",
         "importPath": "code.const",
         "description": "code.const",
         "isExtraImport": true,
@@ -49,6 +49,22 @@
     },
     {
         "label": "WIN_WIDTH",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "C_WHITE",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "WIN_HEIGHT",
         "importPath": "code.const",
         "description": "code.const",
         "isExtraImport": true,
@@ -104,6 +120,38 @@
         "documentation": {}
     },
     {
+        "label": "WIN_HEIGHT",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "WIN_WIDTH",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "ENTITY_SPEED",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "Entity",
+        "importPath": "code.entity",
+        "description": "code.entity",
+        "isExtraImport": true,
+        "detail": "code.entity",
+        "documentation": {}
+    },
+    {
         "label": "Entity",
         "importPath": "code.entity",
         "description": "code.entity",
@@ -117,14 +165,6 @@
         "description": "code.entity",
         "isExtraImport": true,
         "detail": "code.entity",
-        "documentation": {}
-    },
-    {
-        "label": "Entity",
-        "importPath": "Entity",
-        "description": "Entity",
-        "isExtraImport": true,
-        "detail": "Entity",
         "documentation": {}
     },
     {
@@ -169,11 +209,43 @@
         "documentation": {}
     },
     {
+        "label": "Player",
+        "importPath": "code.player",
+        "description": "code.player",
+        "isExtraImport": true,
+        "detail": "code.player",
+        "documentation": {}
+    },
+    {
         "label": "pygame",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "pygame",
         "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "Surface",
+        "importPath": "pygame",
+        "description": "pygame",
+        "isExtraImport": true,
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "Rect",
+        "importPath": "pygame",
+        "description": "pygame",
+        "isExtraImport": true,
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "Font",
+        "importPath": "pygame",
+        "description": "pygame",
+        "isExtraImport": true,
         "detail": "pygame",
         "documentation": {}
     },
@@ -274,7 +346,7 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "C_YELLOW = (255, 255, 0)\n#E\nENTITY_SPEED = {\n    'LevelBg0': 0,\n    'LevelBg1': 1,\n    'LevelBg2': 2,\n    'LevelBg3': 3,\n    'LevelBg4': 4,\n    'LevelBg5': 5,\n    'LevelBg6': 6",
+        "peekOfCode": "C_YELLOW = (255, 255, 0)\n#E\nENTITY_SPEED = {\n    'LevelBg0': 0,\n    'LevelBg1': 1,\n    'LevelBg2': 2,\n    'LevelBg3': 3,\n    'LevelBg4': 4,\n    'LevelBg5': 5,\n    'LevelBg6': 6,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -283,7 +355,7 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "ENTITY_SPEED = {\n    'LevelBg0': 0,\n    'LevelBg1': 1,\n    'LevelBg2': 2,\n    'LevelBg3': 3,\n    'LevelBg4': 4,\n    'LevelBg5': 5,\n    'LevelBg6': 6\n}\n#M",
+        "peekOfCode": "ENTITY_SPEED = {\n    'LevelBg0': 0,\n    'LevelBg1': 1,\n    'LevelBg2': 2,\n    'LevelBg3': 3,\n    'LevelBg4': 4,\n    'LevelBg5': 5,\n    'LevelBg6': 6,\n    'Player1': 3\n}",
         "detail": "code.const",
         "documentation": {}
     },
@@ -328,7 +400,7 @@
         "kind": 6,
         "importPath": "code.entity",
         "description": "code.entity",
-        "peekOfCode": "class Entity (ABC):\n    def __init__(self, name: str, position: tuple, surf, rect):\n        self.name = name\n        self.surf = pygame.image.load('./assets/' + name + '.png')\n        self.rect = self.surf.get_rect(left=position[0], top=position[1])\n        self.speed = 0\n    @abstractmethod\n    def move(self):\n        pass",
+        "peekOfCode": "class Entity (ABC):\n    def __init__(self, name: str, position: tuple, surf, rect):\n        self.name = name\n        self.surf = pygame.image.load('./assets/' + name + '.png').convert_alpha()\n        self.rect = self.surf.get_rect(left=position[0], top=position[1])\n        self.speed = 0\n    @abstractmethod\n    def move(self):\n        pass",
         "detail": "code.entity",
         "documentation": {}
     },
@@ -355,7 +427,7 @@
         "kind": 6,
         "importPath": "code.level",
         "description": "code.level",
-        "peekOfCode": "class Level:\n    def __init__(self, window, name, game_mode):\n        self.window = window\n        self.name = name\n        self.game_mode = game_mode\n        self.entity_list: list[Entity] =[]\n        self.entity_list.extend(EntityFactory.get_entity('LevelBg'))\n    def run(self):\n        while True:\n            for ent in self.entity_list:",
+        "peekOfCode": "class Level:\n    def __init__(self, window, name, game_mode):\n        self.timeout = 2000\n        self.window = window\n        self.name = name\n        self.game_mode = game_mode\n        self.entity_list: list[Entity] =[]\n        self.entity_list.extend(EntityFactory.get_entity('LevelBg'))\n        self.entity_list.append(EntityFactory.get_entity('Player1'))\n    def run(self):",
         "detail": "code.level",
         "documentation": {}
     },
@@ -364,7 +436,7 @@
         "kind": 6,
         "importPath": "code.menu",
         "description": "code.menu",
-        "peekOfCode": "class Menu:\n    def __init__(self, window):\n        self.window = window\n        self.surf = pygame.image.load('./assets/MenuBg.png')\n        self.react = self.surf.get_rect()\n    def run(self):\n        menu_option = 0\n        pygame.mixer.music.load('./assets/Menu.mp3')\n        pygame.mixer.music.play(-1)\n        while True:",
+        "peekOfCode": "class Menu:\n    def __init__(self, window):\n        self.window = window\n        self.surf = pygame.image.load('./assets/MenuBg.png').convert_alpha()\n        self.react = self.surf.get_rect()\n    def run(self):\n        menu_option = 0\n        pygame.mixer.music.load('./assets/Menu.mp3')\n        pygame.mixer.music.play(-1)\n        while True:",
         "detail": "code.menu",
         "documentation": {}
     },
@@ -373,7 +445,7 @@
         "kind": 6,
         "importPath": "code.player",
         "description": "code.player",
-        "peekOfCode": "class Player(Entity):\n    def __init__(self):\n        pass\n    def update(self, ):\n        pass\n    def move(self, ):\n        pass",
+        "peekOfCode": "class Player(Entity):\n    def __init__(self, name: str, position: tuple):\n        super().__init__(name, position)\n    def move(self, ):\n        pressed_keys = pygame.key.get_pressed()\n        if pressed_keys[pygame.K_UP] and self.rect.top > 0:\n            self.rect.centery -= ENTITY_SPEED[self.name]\n        if pressed_keys[pygame.K_DOWN] and self.rect.bottom < WIN_HEIGHT:\n            self.rect.centery += ENTITY_SPEED[self.name]\n        if pressed_keys[pygame.K_LEFT] and self.rect.left > 0:",
         "detail": "code.player",
         "documentation": {}
     },
