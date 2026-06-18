@@ -16,6 +16,22 @@
         "documentation": {}
     },
     {
+        "label": "ENTITY_SPEED",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "WIN_WIDTH",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
         "label": "WIN_WIDTH",
         "importPath": "code.const",
         "description": "code.const",
@@ -64,7 +80,31 @@
         "documentation": {}
     },
     {
+        "label": "SPAWN_TIME",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
         "label": "WIN_HEIGHT",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "MENU_OPTION",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "EVENT_ENEMY",
         "importPath": "code.const",
         "description": "code.const",
         "isExtraImport": true,
@@ -144,11 +184,35 @@
         "documentation": {}
     },
     {
-        "label": "Entity",
-        "importPath": "code.entity",
-        "description": "code.entity",
+        "label": "PLAYER_KEY_UP",
+        "importPath": "code.const",
+        "description": "code.const",
         "isExtraImport": true,
-        "detail": "code.entity",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "PLAYER_KEY_DOWN",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "PLAYER_KEY_LEFT",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "PLAYER_KEY_RIGHT",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
         "documentation": {}
     },
     {
@@ -169,51 +233,10 @@
     },
     {
         "label": "Entity",
-        "importPath": "Entity",
-        "description": "Entity",
+        "importPath": "code.entity",
+        "description": "code.entity",
         "isExtraImport": true,
-        "detail": "Entity",
-        "documentation": {}
-    },
-    {
-        "label": "ABC",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "abstractmethod",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "pygame.image",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pygame.image",
-        "description": "pygame.image",
-        "detail": "pygame.image",
-        "documentation": {}
-    },
-    {
-        "label": "Background",
-        "importPath": "code.background",
-        "description": "code.background",
-        "isExtraImport": true,
-        "detail": "code.background",
-        "documentation": {}
-    },
-    {
-        "label": "Player",
-        "importPath": "code.player",
-        "description": "code.player",
-        "isExtraImport": true,
-        "detail": "code.player",
+        "detail": "code.entity",
         "documentation": {}
     },
     {
@@ -263,6 +286,72 @@
         "description": "pygame",
         "isExtraImport": true,
         "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "Entity",
+        "importPath": "entity",
+        "description": "entity",
+        "isExtraImport": true,
+        "detail": "entity",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "pygame.image",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame.image",
+        "description": "pygame.image",
+        "detail": "pygame.image",
+        "documentation": {}
+    },
+    {
+        "label": "Background",
+        "importPath": "code.background",
+        "description": "code.background",
+        "isExtraImport": true,
+        "detail": "code.background",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "importPath": "code.player",
+        "description": "code.player",
+        "isExtraImport": true,
+        "detail": "code.player",
+        "documentation": {}
+    },
+    {
+        "label": "Enemy",
+        "importPath": "code.enemy",
+        "description": "code.enemy",
+        "isExtraImport": true,
+        "detail": "code.enemy",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
         "documentation": {}
     },
     {
@@ -319,7 +408,7 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "C_ORANGE = (255, 165, 0)\nC_BLACK = (0, 0, 0)\nC_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#E\nENTITY_SPEED = {\n    'LevelBg0': 0,\n    'LevelBg1': 1,\n    'LevelBg2': 2,\n    'LevelBg3': 3,",
+        "peekOfCode": "C_ORANGE = (255, 165, 0)\nC_BLACK = (0, 0, 0)\nC_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_SPEED = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 1,\n    'Level1Bg2': 2,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -328,7 +417,7 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "C_BLACK = (0, 0, 0)\nC_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#E\nENTITY_SPEED = {\n    'LevelBg0': 0,\n    'LevelBg1': 1,\n    'LevelBg2': 2,\n    'LevelBg3': 3,\n    'LevelBg4': 4,",
+        "peekOfCode": "C_BLACK = (0, 0, 0)\nC_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_SPEED = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 1,\n    'Level1Bg2': 2,\n    'Level1Bg3': 3,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -337,7 +426,7 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "C_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#E\nENTITY_SPEED = {\n    'LevelBg0': 0,\n    'LevelBg1': 1,\n    'LevelBg2': 2,\n    'LevelBg3': 3,\n    'LevelBg4': 4,\n    'LevelBg5': 5,",
+        "peekOfCode": "C_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_SPEED = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 1,\n    'Level1Bg2': 2,\n    'Level1Bg3': 3,\n    'Level1Bg4': 4,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -346,7 +435,16 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "C_YELLOW = (255, 255, 0)\n#E\nENTITY_SPEED = {\n    'LevelBg0': 0,\n    'LevelBg1': 1,\n    'LevelBg2': 2,\n    'LevelBg3': 3,\n    'LevelBg4': 4,\n    'LevelBg5': 5,\n    'LevelBg6': 6,",
+        "peekOfCode": "C_YELLOW = (255, 255, 0)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_SPEED = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 1,\n    'Level1Bg2': 2,\n    'Level1Bg3': 3,\n    'Level1Bg4': 4,\n    'Level1Bg5': 5,",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "EVENT_ENEMY",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "EVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_SPEED = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 1,\n    'Level1Bg2': 2,\n    'Level1Bg3': 3,\n    'Level1Bg4': 4,\n    'Level1Bg5': 5,\n    'Level1Bg6': 6,\n    'Player1': 3,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -355,7 +453,7 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "ENTITY_SPEED = {\n    'LevelBg0': 0,\n    'LevelBg1': 1,\n    'LevelBg2': 2,\n    'LevelBg3': 3,\n    'LevelBg4': 4,\n    'LevelBg5': 5,\n    'LevelBg6': 6,\n    'Player1': 3\n}",
+        "peekOfCode": "ENTITY_SPEED = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 1,\n    'Level1Bg2': 2,\n    'Level1Bg3': 3,\n    'Level1Bg4': 4,\n    'Level1Bg5': 5,\n    'Level1Bg6': 6,\n    'Player1': 3,\n    'Player2': 3,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -364,7 +462,61 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "MENU_OPTION = (\n    'NEW GAME 1P',\n    'NEW GAME 2P COPERATIVE',\n    'NEW GAME 2P COMPETITIVE',\n    'SCORES',\n    'EXIT'\n)\n#w\nWIN_WIDTH = 576\nWIN_HEIGHT = 324",
+        "peekOfCode": "MENU_OPTION = (\n    'NEW GAME 1P',\n    'NEW GAME 2P COPERATIVE',\n    'NEW GAME 2P COMPETITIVE',\n    'SCORES',\n    'EXIT'\n)\n#P\nPLAYER_KEY_UP = {\n    'Player1': pygame.K_UP,",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "PLAYER_KEY_UP",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "PLAYER_KEY_UP = {\n    'Player1': pygame.K_UP,\n    'Player2': pygame.K_w\n}\nPLAYER_KEY_DOWN = {\n    'Player1': pygame.K_DOWN,\n    'Player2': pygame.K_s\n}\nPLAYER_KEY_LEFT = {\n    'Player1': pygame.K_LEFT,",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "PLAYER_KEY_DOWN",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "PLAYER_KEY_DOWN = {\n    'Player1': pygame.K_DOWN,\n    'Player2': pygame.K_s\n}\nPLAYER_KEY_LEFT = {\n    'Player1': pygame.K_LEFT,\n    'Player2': pygame.K_a\n}\nPLAYER_KEY_RIGHT = {\n    'Player1': pygame.K_RIGHT,",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "PLAYER_KEY_LEFT",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "PLAYER_KEY_LEFT = {\n    'Player1': pygame.K_LEFT,\n    'Player2': pygame.K_a\n}\nPLAYER_KEY_RIGHT = {\n    'Player1': pygame.K_RIGHT,\n    'Player2': pygame.K_d\n}\nPLAYER_KEY_SHOOT = {\n    'Player1': pygame.K_LSHIFT,",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "PLAYER_KEY_RIGHT",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "PLAYER_KEY_RIGHT = {\n    'Player1': pygame.K_RIGHT,\n    'Player2': pygame.K_d\n}\nPLAYER_KEY_SHOOT = {\n    'Player1': pygame.K_LSHIFT,\n    'Player2': pygame.K_RCTRL\n}\n#S\nSPAWN_TIME = 4000",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "PLAYER_KEY_SHOOT",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "PLAYER_KEY_SHOOT = {\n    'Player1': pygame.K_LSHIFT,\n    'Player2': pygame.K_RCTRL\n}\n#S\nSPAWN_TIME = 4000\n#W\nWIN_WIDTH = 576\nWIN_HEIGHT = 324",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "SPAWN_TIME",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "SPAWN_TIME = 4000\n#W\nWIN_WIDTH = 576\nWIN_HEIGHT = 324",
         "detail": "code.const",
         "documentation": {}
     },
@@ -391,7 +543,7 @@
         "kind": 6,
         "importPath": "code.enemy",
         "description": "code.enemy",
-        "peekOfCode": "class Enemy(Entity):\n    def __init__(self):\n        pass\n    def move(self, ):\n        pass",
+        "peekOfCode": "class Enemy(Entity):\n    def __init__(self, name: str, position: tuple):\n        super().__init__(name, position)\n    def move(self, ):\n        self.rect.centerx -= ENTITY_SPEED[self.name]\n        if self.rect.right <= 0:\n            self.rect.left = WIN_WIDTH",
         "detail": "code.enemy",
         "documentation": {}
     },
@@ -400,7 +552,7 @@
         "kind": 6,
         "importPath": "code.entity",
         "description": "code.entity",
-        "peekOfCode": "class Entity (ABC):\n    def __init__(self, name: str, position: tuple, surf, rect):\n        self.name = name\n        self.surf = pygame.image.load('./assets/' + name + '.png').convert_alpha()\n        self.rect = self.surf.get_rect(left=position[0], top=position[1])\n        self.speed = 0\n    @abstractmethod\n    def move(self):\n        pass",
+        "peekOfCode": "class Entity (ABC):\n    def __init__(self, name: str, position: tuple):\n        self.name = name\n        self.surf = pygame.image.load('./assets/' + name + '.png').convert_alpha()\n        self.rect = self.surf.get_rect(left=position[0], top=position[1])\n        self.speed = 0\n    @abstractmethod\n    def move(self):\n        pass",
         "detail": "code.entity",
         "documentation": {}
     },
@@ -409,7 +561,7 @@
         "kind": 6,
         "importPath": "code.entityFactory",
         "description": "code.entityFactory",
-        "peekOfCode": "class EntityFactory:\n    @staticmethod\n    def get_entity(self, entity_name: str, position=(0,0)):\n        match entity_name:\n            case 'LevelBg':\n                list_bg = []\n                for i in range(7):\n                    list_bg.append(Background(f'LevelBg{i}', position(0,0)))\n                    list_bg.append(Background(f'LevelBg{i}', position(WIN_WIDTH, 0)))\n                return list_bg",
+        "peekOfCode": "class EntityFactory:\n    @staticmethod\n    def get_entity(entity_name: str):\n        match entity_name:\n            case 'Level1Bg':\n                list_bg = []\n                for i in range(7):\n                    list_bg.append(Background(f'Level1Bg{i}', (0,0)))\n                    list_bg.append(Background(f'Level1Bg{i}', (WIN_WIDTH, 0)))\n                return list_bg",
         "detail": "code.entityFactory",
         "documentation": {}
     },
@@ -427,7 +579,7 @@
         "kind": 6,
         "importPath": "code.level",
         "description": "code.level",
-        "peekOfCode": "class Level:\n    def __init__(self, window, name, game_mode):\n        self.timeout = 2000\n        self.window = window\n        self.name = name\n        self.game_mode = game_mode\n        self.entity_list: list[Entity] =[]\n        self.entity_list.extend(EntityFactory.get_entity('LevelBg'))\n        self.entity_list.append(EntityFactory.get_entity('Player1'))\n    def run(self):",
+        "peekOfCode": "class Level:\n    def __init__(self, window: Surface, name: str, game_mode: str):\n        self.timeout = 2000\n        self.window = window\n        self.name = name\n        self.game_mode = game_mode\n        self.entity_list: list[Entity] =[]\n        self.entity_list.extend(EntityFactory.get_entity('Level1Bg'))\n        self.entity_list.append(EntityFactory.get_entity('Player1'))\n        if game_mode == MENU_OPTION[1] or game_mode == MENU_OPTION[2]:",
         "detail": "code.level",
         "documentation": {}
     },
@@ -445,7 +597,7 @@
         "kind": 6,
         "importPath": "code.player",
         "description": "code.player",
-        "peekOfCode": "class Player(Entity):\n    def __init__(self, name: str, position: tuple):\n        super().__init__(name, position)\n    def move(self, ):\n        pressed_keys = pygame.key.get_pressed()\n        if pressed_keys[pygame.K_UP] and self.rect.top > 0:\n            self.rect.centery -= ENTITY_SPEED[self.name]\n        if pressed_keys[pygame.K_DOWN] and self.rect.bottom < WIN_HEIGHT:\n            self.rect.centery += ENTITY_SPEED[self.name]\n        if pressed_keys[pygame.K_LEFT] and self.rect.left > 0:",
+        "peekOfCode": "class Player(Entity):\n    def __init__(self, name: str, position: tuple):\n        super().__init__(name, position)\n    def move(self, ):\n        pressed_keys = pygame.key.get_pressed()\n        if pressed_keys[PLAYER_KEY_UP[self.name]] and self.rect.top > 0:\n            self.rect.centery -= ENTITY_SPEED[self.name]\n        if pressed_keys[PLAYER_KEY_DOWN[self.name]] and self.rect.bottom < WIN_HEIGHT:\n            self.rect.centery += ENTITY_SPEED[self.name]\n        if pressed_keys[PLAYER_KEY_LEFT[self.name]] and self.rect.left > 0:",
         "detail": "code.player",
         "documentation": {}
     },
