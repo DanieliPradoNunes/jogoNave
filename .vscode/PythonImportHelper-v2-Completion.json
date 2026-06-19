@@ -136,6 +136,14 @@
         "documentation": {}
     },
     {
+        "label": "EVENT_TIMEOUT",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
         "label": "MENU_OPTION",
         "importPath": "code.const",
         "description": "code.const",
@@ -145,6 +153,22 @@
     },
     {
         "label": "SPAWN_TIME",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "TIMEOUT_LEVEL",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "TIMEOUT_STEP",
         "importPath": "code.const",
         "description": "code.const",
         "isExtraImport": true,
@@ -630,7 +654,7 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "EVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_DAMEGE = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 0,\n    'Level1Bg2': 0,\n    'Level1Bg3': 0,\n    'Level1Bg4': 0,\n    'Level1Bg5': 0,\n    'Level1Bg6': 0,\n    'Player1': 1,",
+        "peekOfCode": "EVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_DAMEGE = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 0,\n    'Level1Bg2': 0,\n    'Level1Bg3': 0,\n    'Level1Bg4': 0,\n    'Level1Bg5': 0,\n    'Level1Bg6': 0,\n    'Level2Bg0': 0,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -639,7 +663,7 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "ENTITY_DAMEGE = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 0,\n    'Level1Bg2': 0,\n    'Level1Bg3': 0,\n    'Level1Bg4': 0,\n    'Level1Bg5': 0,\n    'Level1Bg6': 0,\n    'Player1': 1,\n    'Player1Shoot': 25,",
+        "peekOfCode": "ENTITY_DAMEGE = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 0,\n    'Level1Bg2': 0,\n    'Level1Bg3': 0,\n    'Level1Bg4': 0,\n    'Level1Bg5': 0,\n    'Level1Bg6': 0,\n    'Level2Bg0': 0,\n    'Level2Bg1': 0,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -648,7 +672,7 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "ENTITY_HEALTH = {\n    'Level1Bg0': 9999,\n    'Level1Bg1': 9999,\n    'Level1Bg2': 9999,\n    'Level1Bg3': 9999,\n    'Level1Bg4': 9999,\n    'Level1Bg5': 9999,\n    'Level1Bg6': 9999,\n    'Player1': 300,\n    'Player1Shoot': 1,",
+        "peekOfCode": "ENTITY_HEALTH = {\n    'Level1Bg0': 99999,\n    'Level1Bg1': 99999,\n    'Level1Bg2': 99999,\n    'Level1Bg3': 99999,\n    'Level1Bg4': 99999,\n    'Level1Bg5': 99999,\n    'Level1Bg6': 99999,\n    'Level2Bg0': 99999,\n    'Level2Bg1': 99999,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -666,7 +690,16 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "ENTITY_SPEED = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 1,\n    'Level1Bg2': 2,\n    'Level1Bg3': 3,\n    'Level1Bg4': 4,\n    'Level1Bg5': 5,\n    'Level1Bg6': 6,\n    'Player1': 3,\n    'Player1Shoot': 1,",
+        "peekOfCode": "ENTITY_SPEED = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 1,\n    'Level1Bg2': 2,\n    'Level1Bg3': 3,\n    'Level1Bg4': 4,\n    'Level1Bg5': 5,\n    'Level1Bg6': 6,\n    'Level2Bg0': 0,\n    'Level2Bg1': 1,",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "EVENT_TIMEOUT",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "EVENT_TIMEOUT = pygame.USEREVENT + 2\n#M\nMENU_OPTION = (\n    'NEW GAME 1P',\n    'NEW GAME 2P COPERATIVE',\n    'NEW GAME 2P COMPETITIVE',\n    'SCORES',\n    'EXIT'\n)\n#P",
         "detail": "code.const",
         "documentation": {}
     },
@@ -720,7 +753,7 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "PLAYER_KEY_SHOOT = {\n    'Player1': pygame.K_LSHIFT,\n    'Player2': pygame.K_RCTRL\n}\n#S\nSPAWN_TIME = 4000\n#W\nWIN_WIDTH = 576\nWIN_HEIGHT = 324",
+        "peekOfCode": "PLAYER_KEY_SHOOT = {\n    'Player1': pygame.K_LSHIFT,\n    'Player2': pygame.K_RCTRL\n}\n#S\nSPAWN_TIME = 4000\n#T\nTIMEOUT_STEP = 100\nTIMEOUT_LEVEL = 30000\n#W",
         "detail": "code.const",
         "documentation": {}
     },
@@ -729,7 +762,25 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "SPAWN_TIME = 4000\n#W\nWIN_WIDTH = 576\nWIN_HEIGHT = 324",
+        "peekOfCode": "SPAWN_TIME = 4000\n#T\nTIMEOUT_STEP = 100\nTIMEOUT_LEVEL = 30000\n#W\nWIN_WIDTH = 576\nWIN_HEIGHT = 324",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "TIMEOUT_STEP",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "TIMEOUT_STEP = 100\nTIMEOUT_LEVEL = 30000\n#W\nWIN_WIDTH = 576\nWIN_HEIGHT = 324",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "TIMEOUT_LEVEL",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "TIMEOUT_LEVEL = 30000\n#W\nWIN_WIDTH = 576\nWIN_HEIGHT = 324",
         "detail": "code.const",
         "documentation": {}
     },
@@ -801,7 +852,7 @@
         "kind": 6,
         "importPath": "code.game",
         "description": "code.game",
-        "peekOfCode": "class Game:\n    def __init__(self):\n        pygame.init()\n        self.window = pygame.display.set_mode(size=(WIN_WIDTH, WIN_HEIGHT))\n    def run(self):\n        while True:\n            menu = Menu(self.window)\n            menu_return = menu.run()\n            if menu_return in [MENU_OPTION[0], MENU_OPTION[1], MENU_OPTION[2]]:\n                level = Level(self.window, 'Level1', menu_return)",
+        "peekOfCode": "class Game:\n    def __init__(self):\n        pygame.init()\n        self.window = pygame.display.set_mode(size=(WIN_WIDTH, WIN_HEIGHT))\n    def run(self):\n        while True:\n            menu = Menu(self.window)\n            menu_return = menu.run()\n            if menu_return in [MENU_OPTION[0], MENU_OPTION[1], MENU_OPTION[2]]:\n                player_score = [0, 0]",
         "detail": "code.game",
         "documentation": {}
     },
@@ -810,7 +861,7 @@
         "kind": 6,
         "importPath": "code.level",
         "description": "code.level",
-        "peekOfCode": "class Level:\n    def __init__(self, window: Surface, name: str, game_mode: str):\n        self.timeout = 2000\n        self.window = window\n        self.name = name\n        self.game_mode = game_mode\n        self.entity_list: list[Entity] =[]\n        self.entity_list.extend(EntityFactory.get_entity('Level1Bg'))\n        self.entity_list.append(EntityFactory.get_entity('Player1'))\n        if game_mode == MENU_OPTION[1] or game_mode == MENU_OPTION[2]:",
+        "peekOfCode": "class Level:\n    def __init__(self, window: Surface, name: str, game_mode: str, player_score: list[int]):\n        self.timeout = TIMEOUT_LEVEL\n        self.window = window\n        self.name = name\n        self.game_mode = game_mode\n        self.entity_list: list[Entity] =[]\n        self.entity_list.extend(EntityFactory.get_entity(self.name + 'Bg'))\n        player  = (EntityFactory.get_entity('Player1'))\n        player.score = player_score[0]",
         "detail": "code.level",
         "documentation": {}
     },

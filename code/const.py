@@ -17,6 +17,11 @@ ENTITY_DAMEGE = {
     'Level1Bg4': 0,
     'Level1Bg5': 0,
     'Level1Bg6': 0,
+    'Level2Bg0': 0,
+    'Level2Bg1': 0,
+    'Level2Bg2': 0,
+    'Level2Bg3': 0,
+    'Level2Bg4': 0,
     'Player1': 1,
     'Player1Shoot': 25,
     'Player2': 1,
@@ -28,13 +33,18 @@ ENTITY_DAMEGE = {
 }
 
 ENTITY_HEALTH = {
-    'Level1Bg0': 9999,
-    'Level1Bg1': 9999,
-    'Level1Bg2': 9999,
-    'Level1Bg3': 9999,
-    'Level1Bg4': 9999,
-    'Level1Bg5': 9999,
-    'Level1Bg6': 9999,
+    'Level1Bg0': 99999,
+    'Level1Bg1': 99999,
+    'Level1Bg2': 99999,
+    'Level1Bg3': 99999,
+    'Level1Bg4': 99999,
+    'Level1Bg5': 99999,
+    'Level1Bg6': 99999,
+    'Level2Bg0': 99999,
+    'Level2Bg1': 99999,
+    'Level2Bg2': 99999,
+    'Level2Bg3': 99999,
+    'Level2Bg4': 99999,
     'Player1': 300,
     'Player1Shoot': 1,
     'Player2': 300,
@@ -54,6 +64,11 @@ ENTITY_SCORE= {
     'Level1Bg4': 0,
     'Level1Bg5': 0,
     'Level1Bg6': 0,
+    'Level2Bg0': 0,
+    'Level2Bg1': 0,
+    'Level2Bg2': 0,
+    'Level2Bg3': 0,
+    'Level2Bg4': 0,
     'Player1': 0,
     'Player1Shoot': 0,
     'Player2': 0,
@@ -79,6 +94,11 @@ ENTITY_SPEED = {
     'Level1Bg4': 4,
     'Level1Bg5': 5,
     'Level1Bg6': 6,
+    'Level2Bg0': 0,
+    'Level2Bg1': 1,
+    'Level2Bg2': 2,
+    'Level2Bg3': 3,
+    'Level2Bg4': 4,
     'Player1': 3,
     'Player1Shoot': 1,
     'Player2': 3,
@@ -89,7 +109,7 @@ ENTITY_SPEED = {
     'Enemy2Shoot': 2
 }
 
-
+EVENT_TIMEOUT = pygame.USEREVENT + 2
 
 #M
 MENU_OPTION = (
@@ -128,6 +148,10 @@ PLAYER_KEY_SHOOT = {
 
 #S
 SPAWN_TIME = 4000
+
+#T
+TIMEOUT_STEP = 100
+TIMEOUT_LEVEL = 30000
 
 #W
 WIN_WIDTH = 576
