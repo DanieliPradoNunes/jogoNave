@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from entity import Entity
+from code.entity import Entity
 from code.const import ENTITY_SHOT_DELAY, ENTITY_SPEED
 from code.enemyShoot import EnemyShoot
 

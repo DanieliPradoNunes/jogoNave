@@ -40,7 +40,23 @@
         "documentation": {}
     },
     {
+        "label": "ENTITY_DAMEGE",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
         "label": "ENTITY_HEALTH",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "ENTITY_SCORE",
         "importPath": "code.const",
         "description": "code.const",
         "isExtraImport": true,
@@ -96,7 +112,31 @@
         "documentation": {}
     },
     {
+        "label": "C_CYAN",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
         "label": "C_WHITE",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "EVENT_ENEMY",
+        "importPath": "code.const",
+        "description": "code.const",
+        "isExtraImport": true,
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "MENU_OPTION",
         "importPath": "code.const",
         "description": "code.const",
         "isExtraImport": true,
@@ -113,22 +153,6 @@
     },
     {
         "label": "WIN_HEIGHT",
-        "importPath": "code.const",
-        "description": "code.const",
-        "isExtraImport": true,
-        "detail": "code.const",
-        "documentation": {}
-    },
-    {
-        "label": "MENU_OPTION",
-        "importPath": "code.const",
-        "description": "code.const",
-        "isExtraImport": true,
-        "detail": "code.const",
-        "documentation": {}
-    },
-    {
-        "label": "EVENT_ENEMY",
         "importPath": "code.const",
         "description": "code.const",
         "isExtraImport": true,
@@ -264,6 +288,23 @@
         "documentation": {}
     },
     {
+        "label": "code.entity",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "code.entity",
+        "description": "code.entity",
+        "detail": "code.entity",
+        "documentation": {}
+    },
+    {
+        "label": "Entity",
+        "importPath": "code.entity",
+        "description": "code.entity",
+        "isExtraImport": true,
+        "detail": "code.entity",
+        "documentation": {}
+    },
+    {
         "label": "Entity",
         "importPath": "code.entity",
         "description": "code.entity",
@@ -353,14 +394,6 @@
         "documentation": {}
     },
     {
-        "label": "Entity",
-        "importPath": "entity",
-        "description": "entity",
-        "isExtraImport": true,
-        "detail": "entity",
-        "documentation": {}
-    },
-    {
         "label": "EnemyShoot",
         "importPath": "code.enemyShoot",
         "description": "code.enemyShoot",
@@ -407,6 +440,14 @@
         "description": "code.background",
         "isExtraImport": true,
         "detail": "code.background",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "importPath": "code.player",
+        "description": "code.player",
+        "isExtraImport": true,
+        "detail": "code.player",
         "documentation": {}
     },
     {
@@ -544,16 +585,7 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "C_ORANGE = (255, 165, 0)\nC_BLACK = (0, 0, 0)\nC_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_HEALTH = {\n    'Level1Bg0': 9999,\n    'Level1Bg1': 9999,\n    'Level1Bg2': 9999,",
-        "detail": "code.const",
-        "documentation": {}
-    },
-    {
-        "label": "C_BLACK",
-        "kind": 5,
-        "importPath": "code.const",
-        "description": "code.const",
-        "peekOfCode": "C_BLACK = (0, 0, 0)\nC_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_HEALTH = {\n    'Level1Bg0': 9999,\n    'Level1Bg1': 9999,\n    'Level1Bg2': 9999,\n    'Level1Bg3': 9999,",
+        "peekOfCode": "C_ORANGE = (255, 165, 0)\nC_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 128)\nC_GREEN = (0, 128, 0)\nC_CYAN = (0, 128, 128)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_DAMEGE = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 0,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -562,7 +594,7 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "C_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 0)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_HEALTH = {\n    'Level1Bg0': 9999,\n    'Level1Bg1': 9999,\n    'Level1Bg2': 9999,\n    'Level1Bg3': 9999,\n    'Level1Bg4': 9999,",
+        "peekOfCode": "C_WHITE = (255, 255, 255)\nC_YELLOW = (255, 255, 128)\nC_GREEN = (0, 128, 0)\nC_CYAN = (0, 128, 128)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_DAMEGE = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 0,\n    'Level1Bg2': 0,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -571,7 +603,25 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "C_YELLOW = (255, 255, 0)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_HEALTH = {\n    'Level1Bg0': 9999,\n    'Level1Bg1': 9999,\n    'Level1Bg2': 9999,\n    'Level1Bg3': 9999,\n    'Level1Bg4': 9999,\n    'Level1Bg5': 9999,",
+        "peekOfCode": "C_YELLOW = (255, 255, 128)\nC_GREEN = (0, 128, 0)\nC_CYAN = (0, 128, 128)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_DAMEGE = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 0,\n    'Level1Bg2': 0,\n    'Level1Bg3': 0,",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "C_GREEN",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "C_GREEN = (0, 128, 0)\nC_CYAN = (0, 128, 128)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_DAMEGE = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 0,\n    'Level1Bg2': 0,\n    'Level1Bg3': 0,\n    'Level1Bg4': 0,",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "C_CYAN",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "C_CYAN = (0, 128, 128)\n#E\nEVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_DAMEGE = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 0,\n    'Level1Bg2': 0,\n    'Level1Bg3': 0,\n    'Level1Bg4': 0,\n    'Level1Bg5': 0,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -580,7 +630,16 @@
         "kind": 5,
         "importPath": "code.const",
         "description": "code.const",
-        "peekOfCode": "EVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_HEALTH = {\n    'Level1Bg0': 9999,\n    'Level1Bg1': 9999,\n    'Level1Bg2': 9999,\n    'Level1Bg3': 9999,\n    'Level1Bg4': 9999,\n    'Level1Bg5': 9999,\n    'Level1Bg6': 9999,\n    'Player1': 300,",
+        "peekOfCode": "EVENT_ENEMY = pygame.USEREVENT + 1\nENTITY_DAMEGE = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 0,\n    'Level1Bg2': 0,\n    'Level1Bg3': 0,\n    'Level1Bg4': 0,\n    'Level1Bg5': 0,\n    'Level1Bg6': 0,\n    'Player1': 1,",
+        "detail": "code.const",
+        "documentation": {}
+    },
+    {
+        "label": "ENTITY_DAMEGE",
+        "kind": 5,
+        "importPath": "code.const",
+        "description": "code.const",
+        "peekOfCode": "ENTITY_DAMEGE = {\n    'Level1Bg0': 0,\n    'Level1Bg1': 0,\n    'Level1Bg2': 0,\n    'Level1Bg3': 0,\n    'Level1Bg4': 0,\n    'Level1Bg5': 0,\n    'Level1Bg6': 0,\n    'Player1': 1,\n    'Player1Shoot': 25,",
         "detail": "code.const",
         "documentation": {}
     },
@@ -715,7 +774,7 @@
         "kind": 6,
         "importPath": "code.entity",
         "description": "code.entity",
-        "peekOfCode": "class Entity (ABC):\n    def __init__(self, name: str, position: tuple):\n        self.name = name\n        self.surf = pygame.image.load('./assets/' + name + '.png').convert_alpha()\n        self.rect = self.surf.get_rect(left=position[0], top=position[1])\n        self.speed = 0\n        self.health = ENTITY_HEALTH[self.name]\n    @abstractmethod\n    def move(self):\n        pass",
+        "peekOfCode": "class Entity (ABC):\n    def __init__(self, name: str, position: tuple):\n        self.name = name\n        self.surf = pygame.image.load('./assets/' + name + '.png').convert_alpha()\n        self.rect = self.surf.get_rect(left=position[0], top=position[1])\n        self.speed = 0\n        self.health = ENTITY_HEALTH[self.name]\n        self.damege = ENTITY_DAMEGE[self.name]\n        self.score = ENTITY_SCORE[self.name]\n        self.last_dmg = 'None'",
         "detail": "code.entity",
         "documentation": {}
     },
